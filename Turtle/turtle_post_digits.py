@@ -38,7 +38,7 @@ def main():  # The main function define which figure turtle print
             nine()
 
 def even(num):  # The function returns width for even i and high for not even
-    if num % 2 != 0:
+    if num % 2 == 0:
         return font_width
     else:
         return font_high
@@ -47,10 +47,10 @@ def even(num):  # The function returns width for even i and high for not even
 def zero():
     pendown()
     for i in range(4):
-        left(90)
         forward(even(i))
+        left(90)
     penup()
-    forward(gap)
+    forward(gap + font_width)
     pendown()
 
 
