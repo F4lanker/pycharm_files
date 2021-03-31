@@ -121,11 +121,22 @@ def four():
 
 
 def five():
-    penup()
+    pendown()
     forward(font_width)
     left(90)
+    forward(font_high/2)
+    left(90)
+    forward(font_width)
+    right(90)
+    forward(font_high / 2)
+    right(90)
+    forward(font_width)
+    right(90)
+    penup()
     forward(font_high)
-    pendown()
+    left(90)
+    forward(gap)
+
 
 def six():
     pass
