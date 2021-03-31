@@ -139,6 +139,7 @@ def eight():
 def nine():
     pass
 
+main()
 
 
 
