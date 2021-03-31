@@ -12,7 +12,7 @@ font_high = 50
 font_width = 25
 hypotenuza = sqrt((font_high/2)**2 + font_width**2)
 gap = 12
-#index = list(map(int, input('Enter 6 digits of index without spaces and press Enter: ')))
+index = list(map(int, input('Enter 6 digits of index without spaces and press Enter: ')))
 
 def even(num):  # The function returns width for even i and high for not even
     if num % 2 != 0:
@@ -103,12 +103,21 @@ def five():
     forward(font_high)
     pendown()
 
+def six():
+    pass
+
+
+def seven():
+    pass
+
+def eight():
+    pass
+
+def nine():
+    pass
 
 
 
 
-#zero()
-#one()
-#two()
-three()
-four()
+
+
