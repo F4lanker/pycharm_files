@@ -45,6 +45,7 @@ def even(num):  # The function returns width for even i and high for not even
 
 
 def zero():
+    pendown()
     for i in range(4):
         left(90)
         forward(even(i))
