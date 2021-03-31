@@ -14,6 +14,29 @@ hypotenuza = sqrt((font_high/2)**2 + font_width**2)
 gap = 12
 index = list(map(int, input('Enter 6 digits of index without spaces and press Enter: ')))
 
+def main():  # The main function define which figure turtle print
+    for i in index:
+        if i == 0:
+            zero()
+        elif i ==1:
+            one()
+        elif i == 2:
+            two()
+        elif i == 3:
+            three()
+        elif i == 4:
+            four()
+        elif i == 5:
+            five()
+        elif i ==6:
+            six()
+        elif i == 7:
+            seven()
+        elif i == 8:
+            eight()
+        elif i == 9:
+            nine()
+
 def even(num):  # The function returns width for even i and high for not even
     if num % 2 != 0:
         return font_width
